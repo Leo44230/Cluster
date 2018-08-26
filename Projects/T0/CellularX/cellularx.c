@@ -111,6 +111,7 @@ void	cellularx(int cells[], int taille, int t)
 	if (ft_error(cells, taille, t))
 		return ;
 	i = 0;
+	ft_display(cells, taille);
 	cells[0] = 0;
 	cells[taille - 1] = 0;
 	while (i < t)
